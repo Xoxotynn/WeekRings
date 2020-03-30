@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeekRings</string>
+    <string name="fill_week_text">Fill a Week</string>
+    <string name="remaining_days_toast">Wait %1$d days more, lazy ass</string>
+</resources>
