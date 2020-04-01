@@ -87,11 +87,10 @@ class MainActivity : AppCompatActivity() {
     {
         val curDate = Date()
         val curLocalDate = curDate.toInstant().atZone(ZoneId.systemDefault()).toLocalDate()
-        if (curLocalDate.isAfter(nextDate)) {
+        if (curLocalDate.isEqual(nextDate)) {
             nextDate = nextDate.plusDays(7)
             return true
         } else {
-            println(nextDate.toString())
             return false
         }
     }
